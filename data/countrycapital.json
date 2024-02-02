@@ -1,0 +1,123 @@
+{
+    "ad": {
+      "fi": {"country": "Andorra", "capital": "Andorra la Vella"},
+      "sv": {"country": "Andorra", "capital": "Andorra la Vella"},
+      "en": {"country": "Andorra", "capital": "Andorra la Vella"},
+      "es": {"country": "Andorra", "capital": "Andorra la Vella"}
+    },
+    "ae": {
+      "fi": {"country": "Yhdistyneet arabiemiirikunnat", "capital": "Abu Dhabi"},
+      "sv": {"country": "Förenade Arabemiraten", "capital": "Abu Dhabi"},
+      "en": {"country": "United Arab Emirates", "capital": "Abu Dhabi"},
+      "es": {"country": "Emiratos Árabes Unidos", "capital": "Abu Dabi"}
+    },
+    "af": {
+      "fi": {"country": "Afganistan", "capital": "Kabul"},
+      "sv": {"country": "Afghanistan", "capital": "Kabul"},
+      "en": {"country": "Afghanistan", "capital": "Kabul"},
+      "es": {"country": "Afganistán", "capital": "Kabul"}
+    },
+    "ag": {
+      "fi": {"country": "Antigua ja Barbuda", "capital": "St. John's"},
+      "sv": {"country": "Antigua och Barbuda", "capital": "St. John's"},
+      "en": {"country": "Antigua and Barbuda", "capital": "St. John's"},
+      "es": {"country": "Antigua y Barbuda", "capital": "Saint John"}
+    },
+    "ai": {
+      "fi": {"country": "Anguilla", "capital": "The Valley"},
+      "sv": {"country": "Anguilla", "capital": "The Valley"},
+      "en": {"country": "Anguilla", "capital": "The Valley"},
+      "es": {"country": "Anguila", "capital": "The Valley"}
+    },
+    "al": {
+      "fi": {"country": "Albania", "capital": "Tirana"},
+      "sv": {"country": "Albanien", "capital": "Tirana"},
+      "en": {"country": "Albania", "capital": "Tirana"},
+      "es": {"country": "Albania", "capital": "Tirana"}
+    },
+    "am": {
+      "fi": {"country": "Armenia", "capital": "Yerevan"},
+      "sv": {"country": "Armenien", "capital": "Jerevan"},
+      "en": {"country": "Armenia", "capital": "Yerevan"},
+      "es": {"country": "Armenia", "capital": "Ereván"}
+    },
+    "ao": {
+      "fi": {"country": "Angola", "capital": "Luanda"},
+      "sv": {"country": "Angola", "capital": "Luanda"},
+      "en": {"country": "Angola", "capital": "Luanda"},
+      "es": {"country": "Angola", "capital": "Luanda"}
+    },
+    "aq": {
+      "fi": {"country": "Etelämanner", "capital": ""},
+      "sv": {"country": "Antarktis", "capital": ""},
+      "en": {"country": "Antarctica", "capital": ""},
+      "es": {"country": "Antártida", "capital": ""}
+    },
+    "ar": {
+      "fi": {"country": "Argentiina", "capital": "Buenos Aires"},
+      "sv": {"country": "Argentina", "capital": "Buenos Aires"},
+      "en": {"country": "Argentina", "capital": "Buenos Aires"},
+      "es": {"country": "Argentina", "capital": "Buenos Aires"}
+    },
+    "as": {
+      "fi": {"country": "Amerikan Samoa", "capital": "Pago Pago"},
+      "sv": {"country": "Amerikanska Samoa", "capital": "Pago Pago"},
+      "en": {"country": "American Samoa", "capital": "Pago Pago"},
+      "es": {"country": "Samoa Americana", "capital": "Pago Pago"}
+    },
+    "at": {
+      "fi": {"country": "Itävalta", "capital": "Wien"},
+      "sv": {"country": "Österrike", "capital": "Wien"},
+      "en": {"country": "Austria", "capital": "Vienna"},
+      "es": {"country": "Austria", "capital": "Viena"}
+    },
+    "au": {
+      "fi": {"country": "Australia", "capital": "Canberra"},
+      "sv": {"country": "Australien", "capital": "Canberra"},
+      "en": {"country": "Australia", "capital": "Canberra"},
+      "es": {"country": "Australia", "capital": "Canberra"}
+    },
+    "aw": {
+      "fi": {"country": "Aruba", "capital": "Oranjestad"},
+      "sv": {"country": "Aruba", "capital": "Oranjestad"},
+      "en": {"country": "Aruba", "capital": "Oranjestad"},
+      "es": {"country": "Aruba", "capital": "Oranjestad"}
+    },
+    "ax": {
+      "fi": {"country": "Ahvenanmaa", "capital": "Maarianhamina"},
+      "sv": {"country": "Åland", "capital": "Mariehamn"},
+      "en": {"country": "Åland Islands", "capital": "Mariehamn"},
+      "es": {"country": "Åland", "capital": "Mariehamn"}
+    },
+    "az": {
+      "fi": {"country": "Azerbaidžan", "capital": "Baku"},
+      "sv": {"country": "Azerbajdzjan", "capital": "Baku"},
+      "en": {"country": "Azerbaijan", "capital": "Baku"},
+      "es": {"country": "Azerbaiyán", "capital": "Bakú"}
+    },
+    "ba": {
+      "fi": {"country": "Bosnia ja Hertsegovina", "capital": "Sarajevo"},
+      "sv": {"country": "Bosnien och Hercegovina", "capital": "Sarajevo"},
+      "en": {"country": "Bosnia and Herzegovina", "capital": "Sarajevo"},
+      "es": {"country": "Bosnia y Herzegovina", "capital": "Sarajevo"}
+    },
+    "bb": {
+      "fi": {"country": "Barbados", "capital": "Bridgetown"},
+      "sv": {"country": "Barbados", "capital": "Bridgetown"},
+      "en": {"country": "Barbados", "capital": "Bridgetown"},
+      "es": {"country": "Barbados", "capital": "Bridgetown"}
+    },
+    "bd": {
+      "fi": {"country": "Bangladesh", "capital": "Dhaka"},
+      "sv": {"country": "Bangladesh", "capital": "Dhaka"},
+      "en": {"country": "Bangladesh", "capital": "Dhaka"},
+      "es": {"country": "Bangladés", "capital": "Daca"}
+    },
+    "be": {
+      "fi": {"country": "Belgia", "capital": "Bryssel"},
+      "sv": {"country": "Belgien", "capital": "Bryssel"},
+      "en": {"country": "Belgium", "capital": "Brussels"},
+      "es": {"country": "Bélgica", "capital": "Bruselas"}
+    }
+  }
+  

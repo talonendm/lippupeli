@@ -14,13 +14,13 @@ let showDebug = false;
 var x, y, vx, vy;
 
 // let filePaths = ['ad.png','ae.png','af.png','ag.png','ai.png','al.png','am.png','ao.png','aq.png','ar.png','as.png','at.png','au.png','aw.png','ax.png','az.png','ba.png','bb.png','bd.png','be.png','bf.png','bg.png','bh.png','bi.png','bj.png','bl.png','bm.png','bn.png','bo.png','bq.png','br.png','bs.png','bt.png','bv.png','bw.png','by.png','bz.png','ca.png','cc.png','cd.png','cf.png','cg.png','ch.png','ci.png','ck.png','cl.png','cm.png','cn.png','co.png','cr.png','cu.png','cv.png','cw.png','cx.png','cy.png','cz.png','de.png','dj.png','dk.png','dm.png','do.png','dz.png','ec.png','ee.png','eg.png','eh.png','er.png','es.png','et.png','eu.png','fi.png','fj.png','fk.png','fm.png','fo.png','fr.png','ga.png','gb-eng.png','gb-nir.png','gb-sct.png','gb-wls.png','gb.png','gd.png','ge.png','gf.png','gg.png','gh.png','gi.png','gl.png','gm.png','gn.png','gp.png','gq.png','gr.png','gs.png','gt.png','gu.png','gw.png','gy.png','hk.png','hm.png','hn.png','hr.png','ht.png','hu.png','id.png','ie.png','il.png','im.png','in.png','io.png','iq.png','ir.png','is.png','it.png','je.png','jm.png','jo.png','jp.png','ke.png','kg.png','kh.png','ki.png','km.png','kn.png','kp.png','kr.png','kw.png','ky.png','kz.png','la.png','lb.png','lc.png','li.png','lk.png','lr.png','ls.png','lt.png','lu.png','lv.png','ly.png','ma.png','mc.png','md.png','me.png','mf.png','mg.png','mh.png','mk.png','ml.png','mm.png','mn.png','mo.png','mp.png','mq.png','mr.png','ms.png','mt.png','mu.png','mv.png','mw.png','mx.png','my.png','mz.png','na.png','nc.png','ne.png','nf.png','ng.png','ni.png','nl.png','no.png','np.png','nr.png','nu.png','nz.png','om.png','pa.png','pe.png','pf.png','pg.png','ph.png','pk.png','pl.png','pm.png','pn.png','pr.png','ps.png','pt.png','pw.png','py.png','qa.png','re.png','ro.png','rs.png','ru.png','rw.png','sa.png','sb.png','sc.png','sd.png','se.png','sg.png','sh.png','si.png','sj.png','sk.png','sl.png','sm.png','sn.png','so.png','sr.png','ss.png','st.png','sv.png','sx.png','sy.png','sz.png','tc.png','td.png','tf.png','tg.png','th.png','tj.png','tk.png','tl.png','tm.png','tn.png','to.png','tr.png','tt.png','tv.png','tw.png','tz.png','ua.png','ug.png','um.png','us.png','uy.png','uz.png','va.png','vc.png','ve.png','vg.png','vi.png','vn.png','vu.png','wf.png','ws.png','xk.png','ye.png','yt.png','za.png','zm.png','zw.png'];
-let filePaths = ['ad.png', 'ae.png', 'af.png', 'ag.png', 'ai.png', 'al.png', 'am.png', 'ao.png', 'aq.png', 'ar.png'];
+// let filePaths = ['ad.png', 'ae.png', 'af.png', 'ag.png', 'ai.png', 'al.png', 'am.png', 'ao.png', 'aq.png', 'ar.png'];
 let images = []; // Array to store loaded images
 let selected_flag = 0;
 
-let cc = ['ad', 'ae', 'af', 'ag', 'ai', 'al', 'am', 'ao', 'aq', 'ar'];
-
-
+//let cc = ['ad', 'ae', 'af', 'ag', 'ai', 'al', 'am', 'ao', 'aq', 'ar'];
+// let cc = ['ad','ae','af','ag','ai','al','am','ao','aq','ar','as','at','au','aw','ax','az','ba','bb','bd','be','bf','bg','bh','bi','bj','bl','bm','bn','bo','bq','br','bs','bt','bv','bw','by','bz','ca','cc','cd','cf','cg','ch','ci','ck','cl','cm','cn','co','cr','cu','cv','cw','cx','cy','cz','de','dj','dk','dm','do','dz','ec','ee','eg','eh','er','es','et','eu','fi','fj','fk','fm','fo','fr','ga','gb-eng','gb-nir','gb-sct','gb-wls','gb','gd','ge','gf','gg','gh','gi','gl','gm','gn','gp','gq','gr','gs','gt','gu','gw','gy','hk','hm','hn','hr','ht','hu','id','ie','il','im','in','io','iq','ir','is','it','je','jm','jo','jp','ke','kg','kh','ki','km','kn','kp','kr','kw','ky','kz','la','lb','lc','li','lk','lr','ls','lt','lu','lv','ly','ma','mc','md','me','mf','mg','mh','mk','ml','mm','mn','mo','mp','mq','mr','ms','mt','mu','mv','mw','mx','my','mz','na','nc','ne','nf','ng','ni','nl','no','np','nr','nu','nz','om','pa','pe','pf','pg','ph','pk','pl','pm','pn','pr','ps','pt','pw','py','qa','re','ro','rs','ru','rw','sa','sb','sc','sd','se','sg','sh','si','sj','sk','sl','sm','sn','so','sr','ss','st','sv','sx','sy','sz','tc','td','tf','tg','th','tj','tk','tl','tm','tn','to','tr','tt','tv','tw','tz','ua','ug','um','us','uy','uz','va','vc','ve','vg','vi','vn','vu','wf','ws','xk','ye','yt','za','zm','zw'];
+let cc = ['ad','ae','af','ag','ai','al','am','ao','aq','ar','as','at','au','aw','ax','az','ba','bb','bd','be'];
 let howmany = 5; // 3
 
 let selectedCountry;
@@ -28,13 +28,16 @@ let randomCountries = [];
 
 let countriesData;
 
+let select_language = 'fi';
+
+
 function preload() {
 
   // Load the JSON file
-  countriesData = loadJSON('data/country.json');
+  countriesData = loadJSON('data/countrycapital.json');
 
   // Load images based on file names
-  for (let i = 0; i < filePaths.length; i++) {
+  for (let i = 0; i < cc.length; i++) {
     let img = loadImage('flags/' + cc[i] + ".png");
     images.push(img);
   }
@@ -74,6 +77,22 @@ function setup() {
     console.log("Random Countries:", randomCountries);
 
 
+    console.log(getCapital("ae", "en"));
+
+    console.log(getCountry("ae", select_language));
+
+}
+
+
+// Function to get the capital based on country code and language
+function getCapital(countryCode, language) {
+  const capital = countriesData[countryCode]?.[language]?.capital;
+  return capital || "Capital not found for the specified country code and language";
+}
+
+function getCountry(countryCode, language) {
+  const country = countriesData[countryCode]?.[language]?.country;
+  return country || "Capital not found for the specified country code and language";
 }
 
 function draw() {
@@ -123,10 +142,9 @@ function draw() {
   //fill(0); // Set text color to black
   // text(JSON.stringify(countriesData, null, 2), 10, 20);
   var selectedValue = cc[selected_flag];
-  text(countriesData[selectedValue].capital, width / 2, 140);
+  text(getCountry(selectedValue, select_language), width / 2, 140);
 
-
-  text(countriesData[selectedValue].name, width / 2, 180);
+  text(getCapital(selectedValue, select_language), width / 2, 180);
 
 }
 
