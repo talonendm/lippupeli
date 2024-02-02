@@ -359,368 +359,364 @@
             "capital": "Bruselas"
         }
     },
-    {
-        "bf": {
-            "fi": {
-                "country": "Burkina Faso",
-                "capital": "Ouagadougou"
-            },
-            "sv": {
-                "country": "Burkina Faso",
-                "capital": "Ouagadougou"
-            },
-            "en": {
-                "country": "Burkina Faso",
-                "capital": "Ouagadougou"
-            },
-            "es": {
-                "country": "Burkina Faso",
-                "capital": "Uagadugú"
-            }
+    "bf": {
+        "fi": {
+            "country": "Burkina Faso",
+            "capital": "Ouagadougou"
         },
-        "bg": {
-            "fi": {
-                "country": "Bulgaria",
-                "capital": "Sofia"
-            },
-            "sv": {
-                "country": "Bulgarien",
-                "capital": "Sofia"
-            },
-            "en": {
-                "country": "Bulgaria",
-                "capital": "Sofia"
-            },
-            "es": {
-                "country": "Bulgaria",
-                "capital": "Sofía"
-            }
+        "sv": {
+            "country": "Burkina Faso",
+            "capital": "Ouagadougou"
         },
-        "bh": {
-            "fi": {
-                "country": "Bahrain",
-                "capital": "Manama"
-            },
-            "sv": {
-                "country": "Bahrain",
-                "capital": "Manama"
-            },
-            "en": {
-                "country": "Bahrain",
-                "capital": "Manama"
-            },
-            "es": {
-                "country": "Baréin",
-                "capital": "Manama"
-            }
+        "en": {
+            "country": "Burkina Faso",
+            "capital": "Ouagadougou"
         },
-        "bi": {
-            "fi": {
-                "country": "Burundi",
-                "capital": "Bujumbura"
-            },
-            "sv": {
-                "country": "Burundi",
-                "capital": "Bujumbura"
-            },
-            "en": {
-                "country": "Burundi",
-                "capital": "Bujumbura"
-            },
-            "es": {
-                "country": "Burundi",
-                "capital": "Buyumbura"
-            }
-        },
-        "bj": {
-            "fi": {
-                "country": "Benin",
-                "capital": "Porto-Novo"
-            },
-            "sv": {
-                "country": "Benin",
-                "capital": "Porto-Novo"
-            },
-            "en": {
-                "country": "Benin",
-                "capital": "Porto-Novo"
-            },
-            "es": {
-                "country": "Benín",
-                "capital": "Porto Novo"
-            }
-        },
-        "bl": {
-            "fi": {
-                "country": "Saint-Barthélemy",
-                "capital": "Gustavia"
-            },
-            "sv": {
-                "country": "Saint-Barthélemy",
-                "capital": "Gustavia"
-            },
-            "en": {
-                "country": "Saint Barthélemy",
-                "capital": "Gustavia"
-            },
-            "es": {
-                "country": "San Bartolomé",
-                "capital": "Gustavia"
-            }
-        },
-        "bm": {
-            "fi": {
-                "country": "Bermuda",
-                "capital": "Hamilton"
-            },
-            "sv": {
-                "country": "Bermuda",
-                "capital": "Hamilton"
-            },
-            "en": {
-                "country": "Bermuda",
-                "capital": "Hamilton"
-            },
-            "es": {
-                "country": "Bermudas",
-                "capital": "Hamilton"
-            }
-        },
-        "bn": {
-            "fi": {
-                "country": "Brunei",
-                "capital": "Bandar Seri Begawan"
-            },
-            "sv": {
-                "country": "Brunei",
-                "capital": "Bandar Seri Begawan"
-            },
-            "en": {
-                "country": "Brunei",
-                "capital": "Bandar Seri Begawan"
-            },
-            "es": {
-                "country": "Brunéi",
-                "capital": "Bandar Seri Begawan"
-            }
-        },
-        "bo": {
-            "fi": {
-                "country": "Bolivia",
-                "capital": "Sucre (constitutional), La Paz (seat of government)"
-            },
-            "sv": {
-                "country": "Bolivia",
-                "capital": "Sucre (konstitutionell), La Paz (regeringssäte)"
-            },
-            "en": {
-                "country": "Bolivia",
-                "capital": "Sucre (constitutional), La Paz (seat of government)"
-            },
-            "es": {
-                "country": "Bolivia",
-                "capital": "Sucre (constitucional), La Paz (sede del gobierno)"
-            }
-        },
-        "bq": {
-            "fi": {
-                "country": "Bonaire, Sint Eustatius ja Saba",
-                "capital": ""
-            },
-            "sv": {
-                "country": "Bonaire, Sint Eustatius och Saba",
-                "capital": ""
-            },
-            "en": {
-                "country": "Bonaire, Sint Eustatius, and Saba",
-                "capital": ""
-            },
-            "es": {
-                "country": "Bonaire, San Eustaquio y Saba",
-                "capital": ""
-            }
+        "es": {
+            "country": "Burkina Faso",
+            "capital": "Uagadugú"
         }
     },
-    {
-        "br": {
-            "fi": {
-                "country": "Brasilia",
-                "capital": "Brasília"
-            },
-            "sv": {
-                "country": "Brasiliens",
-                "capital": "Brasília"
-            },
-            "en": {
-                "country": "Brazil",
-                "capital": "Brasília"
-            },
-            "es": {
-                "country": "Brasil",
-                "capital": "Brasilia"
-            }
+    "bg": {
+        "fi": {
+            "country": "Bulgaria",
+            "capital": "Sofia"
         },
-        "bs": {
-            "fi": {
-                "country": "Nassau",
-                "capital": "Nassau"
-            },
-            "sv": {
-                "country": "Bahamas",
-                "capital": "Nassau"
-            },
-            "en": {
-                "country": "Bahamas",
-                "capital": "Nassau"
-            },
-            "es": {
-                "country": "Bahamas",
-                "capital": "Nassau"
-            }
+        "sv": {
+            "country": "Bulgarien",
+            "capital": "Sofia"
         },
-        "bt": {
-            "fi": {
-                "country": "Thimphu",
-                "capital": "Thimphu"
-            },
-            "sv": {
-                "country": "Bhutan",
-                "capital": "Thimphu"
-            },
-            "en": {
-                "country": "Bhutan",
-                "capital": "Thimphu"
-            },
-            "es": {
-                "country": "Bután",
-                "capital": "Thimphu"
-            }
+        "en": {
+            "country": "Bulgaria",
+            "capital": "Sofia"
         },
-        "bv": {
-            "fi": {
-                "country": "Bouvet-saari",
-                "capital": ""
-            },
-            "sv": {
-                "country": "Bouvetön",
-                "capital": ""
-            },
-            "en": {
-                "country": "Bouvet Island",
-                "capital": ""
-            },
-            "es": {
-                "country": "Isla Bouvet",
-                "capital": ""
-            }
+        "es": {
+            "country": "Bulgaria",
+            "capital": "Sofía"
+        }
+    },
+    "bh": {
+        "fi": {
+            "country": "Bahrain",
+            "capital": "Manama"
         },
-        "bw": {
-            "fi": {
-                "country": "Gaborone",
-                "capital": "Gaborone"
-            },
-            "sv": {
-                "country": "Botswana",
-                "capital": "Gaborone"
-            },
-            "en": {
-                "country": "Botswana",
-                "capital": "Gaborone"
-            },
-            "es": {
-                "country": "Botsuana",
-                "capital": "Gaborone"
-            }
+        "sv": {
+            "country": "Bahrain",
+            "capital": "Manama"
         },
-        "by": {
-            "fi": {
-                "country": "Minsk",
-                "capital": "Minsk"
-            },
-            "sv": {
-                "country": "Vitryssland",
-                "capital": "Minsk"
-            },
-            "en": {
-                "country": "Belarus",
-                "capital": "Minsk"
-            },
-            "es": {
-                "country": "Bielorrusia",
-                "capital": "Minsk"
-            }
+        "en": {
+            "country": "Bahrain",
+            "capital": "Manama"
         },
-        "bz": {
-            "fi": {
-                "country": "Belmopan",
-                "capital": "Belmopan"
-            },
-            "sv": {
-                "country": "Belize",
-                "capital": "Belmopan"
-            },
-            "en": {
-                "country": "Belize",
-                "capital": "Belmopan"
-            },
-            "es": {
-                "country": "Belice",
-                "capital": "Belmopán"
-            }
+        "es": {
+            "country": "Baréin",
+            "capital": "Manama"
+        }
+    },
+    "bi": {
+        "fi": {
+            "country": "Burundi",
+            "capital": "Bujumbura"
         },
-        "ca": {
-            "fi": {
-                "country": "Ottawa",
-                "capital": "Ottawa"
-            },
-            "sv": {
-                "country": "Kanada",
-                "capital": "Ottawa"
-            },
-            "en": {
-                "country": "Canada",
-                "capital": "Ottawa"
-            },
-            "es": {
-                "country": "Canadá",
-                "capital": "Ottawa"
-            }
+        "sv": {
+            "country": "Burundi",
+            "capital": "Bujumbura"
         },
-        "cc": {
-            "fi": {
-                "country": "Kookossaaret",
-                "capital": ""
-            },
-            "sv": {
-                "country": "Kokosöarna",
-                "capital": ""
-            },
-            "en": {
-                "country": "Cocos (Keeling) Islands",
-                "capital": ""
-            },
-            "es": {
-                "country": "Islas Cocos (Keeling)",
-                "capital": ""
-            }
+        "en": {
+            "country": "Burundi",
+            "capital": "Bujumbura"
         },
-        "cd": {
-            "fi": {
-                "country": "Kinshasa",
-                "capital": "Kinshasa"
-            },
-            "sv": {
-                "country": "Kongo-Kinshasa",
-                "capital": "Kinshasa"
-            },
-            "en": {
-                "country": "Democratic Republic of the Congo",
-                "capital": "Kinshasa"
-            },
-            "es": {
-                "country": "República Democrática del Congo",
-                "capital": "Kinshasa"
-            }
+        "es": {
+            "country": "Burundi",
+            "capital": "Buyumbura"
+        }
+    },
+    "bj": {
+        "fi": {
+            "country": "Benin",
+            "capital": "Porto-Novo"
+        },
+        "sv": {
+            "country": "Benin",
+            "capital": "Porto-Novo"
+        },
+        "en": {
+            "country": "Benin",
+            "capital": "Porto-Novo"
+        },
+        "es": {
+            "country": "Benín",
+            "capital": "Porto Novo"
+        }
+    },
+    "bl": {
+        "fi": {
+            "country": "Saint-Barthélemy",
+            "capital": "Gustavia"
+        },
+        "sv": {
+            "country": "Saint-Barthélemy",
+            "capital": "Gustavia"
+        },
+        "en": {
+            "country": "Saint Barthélemy",
+            "capital": "Gustavia"
+        },
+        "es": {
+            "country": "San Bartolomé",
+            "capital": "Gustavia"
+        }
+    },
+    "bm": {
+        "fi": {
+            "country": "Bermuda",
+            "capital": "Hamilton"
+        },
+        "sv": {
+            "country": "Bermuda",
+            "capital": "Hamilton"
+        },
+        "en": {
+            "country": "Bermuda",
+            "capital": "Hamilton"
+        },
+        "es": {
+            "country": "Bermudas",
+            "capital": "Hamilton"
+        }
+    },
+    "bn": {
+        "fi": {
+            "country": "Brunei",
+            "capital": "Bandar Seri Begawan"
+        },
+        "sv": {
+            "country": "Brunei",
+            "capital": "Bandar Seri Begawan"
+        },
+        "en": {
+            "country": "Brunei",
+            "capital": "Bandar Seri Begawan"
+        },
+        "es": {
+            "country": "Brunéi",
+            "capital": "Bandar Seri Begawan"
+        }
+    },
+    "bo": {
+        "fi": {
+            "country": "Bolivia",
+            "capital": "Sucre (constitutional), La Paz (seat of government)"
+        },
+        "sv": {
+            "country": "Bolivia",
+            "capital": "Sucre (konstitutionell), La Paz (regeringssäte)"
+        },
+        "en": {
+            "country": "Bolivia",
+            "capital": "Sucre (constitutional), La Paz (seat of government)"
+        },
+        "es": {
+            "country": "Bolivia",
+            "capital": "Sucre (constitucional), La Paz (sede del gobierno)"
+        }
+    },
+    "bq": {
+        "fi": {
+            "country": "Bonaire, Sint Eustatius ja Saba",
+            "capital": ""
+        },
+        "sv": {
+            "country": "Bonaire, Sint Eustatius och Saba",
+            "capital": ""
+        },
+        "en": {
+            "country": "Bonaire, Sint Eustatius, and Saba",
+            "capital": ""
+        },
+        "es": {
+            "country": "Bonaire, San Eustaquio y Saba",
+            "capital": ""
+        }
+    },
+    "br": {
+        "fi": {
+            "country": "Brasilia",
+            "capital": "Brasília"
+        },
+        "sv": {
+            "country": "Brasiliens",
+            "capital": "Brasília"
+        },
+        "en": {
+            "country": "Brazil",
+            "capital": "Brasília"
+        },
+        "es": {
+            "country": "Brasil",
+            "capital": "Brasilia"
+        }
+    },
+    "bs": {
+        "fi": {
+            "country": "Nassau",
+            "capital": "Nassau"
+        },
+        "sv": {
+            "country": "Bahamas",
+            "capital": "Nassau"
+        },
+        "en": {
+            "country": "Bahamas",
+            "capital": "Nassau"
+        },
+        "es": {
+            "country": "Bahamas",
+            "capital": "Nassau"
+        }
+    },
+    "bt": {
+        "fi": {
+            "country": "Thimphu",
+            "capital": "Thimphu"
+        },
+        "sv": {
+            "country": "Bhutan",
+            "capital": "Thimphu"
+        },
+        "en": {
+            "country": "Bhutan",
+            "capital": "Thimphu"
+        },
+        "es": {
+            "country": "Bután",
+            "capital": "Thimphu"
+        }
+    },
+    "bv": {
+        "fi": {
+            "country": "Bouvet-saari",
+            "capital": ""
+        },
+        "sv": {
+            "country": "Bouvetön",
+            "capital": ""
+        },
+        "en": {
+            "country": "Bouvet Island",
+            "capital": ""
+        },
+        "es": {
+            "country": "Isla Bouvet",
+            "capital": ""
+        }
+    },
+    "bw": {
+        "fi": {
+            "country": "Gaborone",
+            "capital": "Gaborone"
+        },
+        "sv": {
+            "country": "Botswana",
+            "capital": "Gaborone"
+        },
+        "en": {
+            "country": "Botswana",
+            "capital": "Gaborone"
+        },
+        "es": {
+            "country": "Botsuana",
+            "capital": "Gaborone"
+        }
+    },
+    "by": {
+        "fi": {
+            "country": "Minsk",
+            "capital": "Minsk"
+        },
+        "sv": {
+            "country": "Vitryssland",
+            "capital": "Minsk"
+        },
+        "en": {
+            "country": "Belarus",
+            "capital": "Minsk"
+        },
+        "es": {
+            "country": "Bielorrusia",
+            "capital": "Minsk"
+        }
+    },
+    "bz": {
+        "fi": {
+            "country": "Belmopan",
+            "capital": "Belmopan"
+        },
+        "sv": {
+            "country": "Belize",
+            "capital": "Belmopan"
+        },
+        "en": {
+            "country": "Belize",
+            "capital": "Belmopan"
+        },
+        "es": {
+            "country": "Belice",
+            "capital": "Belmopán"
+        }
+    },
+    "ca": {
+        "fi": {
+            "country": "Ottawa",
+            "capital": "Ottawa"
+        },
+        "sv": {
+            "country": "Kanada",
+            "capital": "Ottawa"
+        },
+        "en": {
+            "country": "Canada",
+            "capital": "Ottawa"
+        },
+        "es": {
+            "country": "Canadá",
+            "capital": "Ottawa"
+        }
+    },
+    "cc": {
+        "fi": {
+            "country": "Kookossaaret",
+            "capital": ""
+        },
+        "sv": {
+            "country": "Kokosöarna",
+            "capital": ""
+        },
+        "en": {
+            "country": "Cocos (Keeling) Islands",
+            "capital": ""
+        },
+        "es": {
+            "country": "Islas Cocos (Keeling)",
+            "capital": ""
+        }
+    },
+    "cd": {
+        "fi": {
+            "country": "Kinshasa",
+            "capital": "Kinshasa"
+        },
+        "sv": {
+            "country": "Kongo-Kinshasa",
+            "capital": "Kinshasa"
+        },
+        "en": {
+            "country": "Democratic Republic of the Congo",
+            "capital": "Kinshasa"
+        },
+        "es": {
+            "country": "República Democrática del Congo",
+            "capital": "Kinshasa"
         }
     }
 }
