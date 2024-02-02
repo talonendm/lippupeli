@@ -9,38 +9,38 @@ var clicked = false, clickTimeout = 300;
 var clicks2 = 0;
 var doublec2 = 0;
 
+let showDebug = false;
 
+var x, y, vx, vy;
+
+// let filePaths = ['ad.png','ae.png','af.png','ag.png','ai.png','al.png','am.png','ao.png','aq.png','ar.png','as.png','at.png','au.png','aw.png','ax.png','az.png','ba.png','bb.png','bd.png','be.png','bf.png','bg.png','bh.png','bi.png','bj.png','bl.png','bm.png','bn.png','bo.png','bq.png','br.png','bs.png','bt.png','bv.png','bw.png','by.png','bz.png','ca.png','cc.png','cd.png','cf.png','cg.png','ch.png','ci.png','ck.png','cl.png','cm.png','cn.png','co.png','cr.png','cu.png','cv.png','cw.png','cx.png','cy.png','cz.png','de.png','dj.png','dk.png','dm.png','do.png','dz.png','ec.png','ee.png','eg.png','eh.png','er.png','es.png','et.png','eu.png','fi.png','fj.png','fk.png','fm.png','fo.png','fr.png','ga.png','gb-eng.png','gb-nir.png','gb-sct.png','gb-wls.png','gb.png','gd.png','ge.png','gf.png','gg.png','gh.png','gi.png','gl.png','gm.png','gn.png','gp.png','gq.png','gr.png','gs.png','gt.png','gu.png','gw.png','gy.png','hk.png','hm.png','hn.png','hr.png','ht.png','hu.png','id.png','ie.png','il.png','im.png','in.png','io.png','iq.png','ir.png','is.png','it.png','je.png','jm.png','jo.png','jp.png','ke.png','kg.png','kh.png','ki.png','km.png','kn.png','kp.png','kr.png','kw.png','ky.png','kz.png','la.png','lb.png','lc.png','li.png','lk.png','lr.png','ls.png','lt.png','lu.png','lv.png','ly.png','ma.png','mc.png','md.png','me.png','mf.png','mg.png','mh.png','mk.png','ml.png','mm.png','mn.png','mo.png','mp.png','mq.png','mr.png','ms.png','mt.png','mu.png','mv.png','mw.png','mx.png','my.png','mz.png','na.png','nc.png','ne.png','nf.png','ng.png','ni.png','nl.png','no.png','np.png','nr.png','nu.png','nz.png','om.png','pa.png','pe.png','pf.png','pg.png','ph.png','pk.png','pl.png','pm.png','pn.png','pr.png','ps.png','pt.png','pw.png','py.png','qa.png','re.png','ro.png','rs.png','ru.png','rw.png','sa.png','sb.png','sc.png','sd.png','se.png','sg.png','sh.png','si.png','sj.png','sk.png','sl.png','sm.png','sn.png','so.png','sr.png','ss.png','st.png','sv.png','sx.png','sy.png','sz.png','tc.png','td.png','tf.png','tg.png','th.png','tj.png','tk.png','tl.png','tm.png','tn.png','to.png','tr.png','tt.png','tv.png','tw.png','tz.png','ua.png','ug.png','um.png','us.png','uy.png','uz.png','va.png','vc.png','ve.png','vg.png','vi.png','vn.png','vu.png','wf.png','ws.png','xk.png','ye.png','yt.png','za.png','zm.png','zw.png'];
+let filePaths = ['ad.png', 'ae.png', 'af.png', 'ag.png', 'ai.png', 'al.png', 'am.png', 'ao.png', 'aq.png', 'ar.png'];
 let images = []; // Array to store loaded images
-let pngFileNames = [];
+let selected_flag = 0;
 
+let cc = ['ad', 'ae', 'af', 'ag', 'ai', 'al', 'am', 'ao', 'aq', 'ar'];
+
+
+let howmany = 5; // 3
+
+let selectedCountry;
+let randomCountries = [];
+
+let countriesData;
 
 function preload() {
 
-// image load is not working.
-
-  // Load the image in the preload function to ensure it's loaded before the sketch starts
-  //img = loadImage('flags/ai.png'); // Replace 'your_image.jpg' with the actual filename of your image
-
-  // Load the file names of PNG images in the preload function
-   loadStrings('flags/', handleFileNames); // Adjust the path to your image folder
-
-  // Load the file names of PNG images in the preload function
-  // pngFileNames = listFiles('flags/', 'png'); // Adjust the path to your image folder
-
-
-  console.log(pngFileNames);
+  // Load the JSON file
+  countriesData = loadJSON('data/country.json');
 
   // Load images based on file names
-  for (let i = 0; i < pngFileNames.length; i++) {
-    let img = loadImage('flags/' + pngFileNames[i]);
+  for (let i = 0; i < filePaths.length; i++) {
+    let img = loadImage('flags/' + cc[i] + ".png");
     images.push(img);
   }
 
 }
 
-function handleFileNames(data) {
-  pngFileNames = data.filter(fileName => fileName.endsWith('.png'));
-}
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -48,28 +48,86 @@ function setup() {
   rectMode(CENTER);
   setInterval(timeIt, 100); // https://editor.p5js.org/denaplesk2/sketches/ryIBFP_lG
 
+  resetDrag();
+
+  console.log(countriesData);
+
   // Display the list of PNG file names in the console
-  console.log('PNG file names:', pngFileNames);
+  //console.log('PNG file names:', filePaths);
+
+
+
+  // Select a random country code
+  selectedCountry = random(cc);
+
+
+
+  let possibleChoices = cc.filter(code => code !== cc);
+
+
+  // Select three other random country codes
+  randomCountries = selectRandom(possibleChoices, howmany);
+
+
+    // Display the selected country codes
+    console.log("Selected Country:", selectedCountry);
+    console.log("Random Countries:", randomCountries);
+
 
 }
 
 function draw() {
   background(value, 10, 10);
 
-  //image(img, width / 2 - img.width / 2, height / 2 - img.height / 2);
 
-  rectMode(CENTER);
+
+
+  vx = vx * 0.9;
+  vy = vy * 0.9;
+
+  x = x + vx;
+  y = y + vy;
+
+
+  if (x > width / 2 | x < -width / 2) {
+    selected_flag = (selected_flag + 1) % 10;
+    resetDrag();
+  }
+
+
+  image(images[selected_flag], width / 2 - images[selected_flag].width / 2 + x, 90 - images[selected_flag].height / 2 + y);
+
+
+  if (showDebug) {
+
+    rectMode(CENTER);
+    fill(200, 60, 90);
+    rect(width * 0.5, height * 0.5, 280, 72, 7);
+    fill(0, 0, 100);
+    textSize(27);
+    textAlign(CENTER, CENTER);
+    textFont('Avenir');
+    let permin = round(clicks * 600 / timerValue);
+
+    text('click: ' + clicks + " OR " + clicks2 + "TIME" + nfc(timerValue / 10, 1) + "\nperMin:" + permin, width * 0.5, height * 0.5 + 2);
+    text('touch move: ' + movec, width * 0.5, height * 0.35 + 2);
+    text('double: ' + doublec + " or " + doublec2, width * 0.5, height * 0.65 + 2);
+    text('end: ' + endclicks, width * 0.5, height * 0.8 + 2);
+
+  }
+
   fill(200, 60, 90);
-  rect(width * 0.5, height * 0.5, 280, 72, 7);
-  fill(0, 0, 100);
-  textSize(27);
-  textAlign(CENTER, CENTER);
-  textFont('Avenir');
-  let permin = round(clicks * 600 / timerValue);
-  text('click: ' + clicks + " OR " + clicks2 + "TIME" + nfc(timerValue / 10, 1) + "\nperMin:" + permin, width * 0.5, height * 0.5 + 2);
-  text('touch move: ' + movec, width * 0.5, height * 0.35 + 2);
-  text('double: ' + doublec + " or " + doublec2, width * 0.5, height * 0.65 + 2);
-  text('end: ' + endclicks, width * 0.5, height * 0.8 + 2);
+  // Display the JSON data as text
+  textAlign(LEFT);
+  textSize(14);
+  //fill(0); // Set text color to black
+  // text(JSON.stringify(countriesData, null, 2), 10, 20);
+  var selectedValue = cc[selected_flag];
+  text(countriesData[selectedValue].capital, width / 2, 140);
+
+
+  text(countriesData[selectedValue].name, width / 2, 180);
+
 }
 
 // TOUCH ------------------------------------------------------------
@@ -85,6 +143,9 @@ function touchStarted() {
     doublec = doublec + 1; //# // within selected time 0.1sec
   } else {
     clicks = clicks + 1;
+
+    
+
   }
   // https://stackoverflow.com/questions/51144762/p5-js-mousepressed-works-but-doublepressed-doesnot
   ptimer = timerValue;
@@ -103,6 +164,12 @@ function touchStarted() {
     console.log("double click");
     //double click Stuff
     doublec2 = doublec2 + 1;
+
+
+    // cancel;
+    selected_flag = (selected_flag + 1) % 10;
+
+
   }
 }
 
@@ -122,6 +189,11 @@ function touchEnded() {
 // TOUCH MOVED ------------------------------------------------------
 function touchMoved() {
   movec = movec + 1;
+
+  vx = vx + (mouseX - pmouseX) / 10;
+  vy = vy + (mouseY - pmouseY) / 10;
+
+
 }
 
 // this function fires with any double click anywhere
@@ -146,3 +218,21 @@ function timeIt() {
 document.ontouchmove = function (event) {
   event.preventDefault();
 };
+
+function resetDrag() {
+  x = 0;
+  y = 0;
+  vx = 0;
+  vy = 0;
+}
+
+
+// Function to select n random elements from an array
+function selectRandom(arr, n) {
+  let result = [];
+  for (let i = 0; i < n; i++) {
+    let randomIndex = floor(random(arr.length));
+    result.push(arr.splice(randomIndex, 1)[0]);
+  }
+  return result;
+}

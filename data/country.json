@@ -1,0 +1,72 @@
+{
+    "ad": {
+      "name": ["Andorra"],
+      "capital": ["Andorra la Vella"],
+      "finnish": ["Andorra"],
+      "swedish": ["Andorra"],
+      "spanish": ["Andorra"]
+    },
+    "ae": {
+      "name": ["United Arab Emirates"],
+      "capital": ["Abu Dhabi"],
+      "finnish": ["Yhdistyneet arabiemiirikunnat"],
+      "swedish": ["Förenade Arabemiraten"],
+      "spanish": ["Emiratos Árabes Unidos"]
+    },
+    "af": {
+      "name": ["Afghanistan"],
+      "capital": ["Kabul"],
+      "finnish": ["Afganistan"],
+      "swedish": ["Afghanistan"],
+      "spanish": ["Afganistán"]
+    },
+    "ag": {
+      "name": ["Antigua and Barbuda"],
+      "capital": ["Saint John's"],
+      "finnish": ["Antigua ja Barbuda"],
+      "swedish": ["Antigua och Barbuda"],
+      "spanish": ["Antigua y Barbuda"]
+    },
+    "ai": {
+      "name": ["Anguilla"],
+      "capital": ["The Valley"],
+      "finnish": ["Anguilla"],
+      "swedish": ["Anguilla"],
+      "spanish": ["Anguila"]
+    },
+    "al": {
+      "name": ["Albania"],
+      "capital": ["Tirana"],
+      "finnish": ["Albania"],
+      "swedish": ["Albanien"],
+      "spanish": ["Albania"]
+    },
+    "am": {
+      "name": ["Armenia"],
+      "capital": ["Yerevan"],
+      "finnish": ["Armenia"],
+      "swedish": ["Armenien"],
+      "spanish": ["Armenia"]
+    },
+    "ao": {
+      "name": ["Angola"],
+      "capital": ["Luanda"],
+      "finnish": ["Angola"],
+      "swedish": ["Angola"],
+      "spanish": ["Angola"]
+    },
+    "aq": {
+      "name": ["Antarctica"],
+      "capital": ["No capital"],
+      "finnish": ["Antarktis"],
+      "swedish": ["Antarktis"],
+      "spanish": ["Antártida"]
+    },
+    "ar": {
+      "name": ["Argentina"],
+      "capital": ["Buenos Aires"],
+      "finnish": ["Argentiina"],
+      "swedish": ["Argentina"],
+      "spanish": ["Argentina"]
+    }
+  }
