@@ -5,82 +5,123 @@ var endclicks = 0;
 var doublec = 0;
 var movec = 0;
 var ptimer;
-var clicked=false, clickTimeout=300;
+var clicked = false, clickTimeout = 300;
 var clicks2 = 0;
 var doublec2 = 0;
-function setup() { 
-  createCanvas(windowWidth, windowHeight);
-	colorMode(HSB,360,100,100);
-	rectMode(CENTER);
-	setInterval(timeIt, 100); // https://editor.p5js.org/denaplesk2/sketches/ryIBFP_lG
-} 
 
-function draw() { 
-  background(value,10,10);
+
+let images = []; // Array to store loaded images
+let pngFileNames = [];
+
+
+function preload() {
+
+// image load is not working.
+
+  // Load the image in the preload function to ensure it's loaded before the sketch starts
+  //img = loadImage('flags/ai.png'); // Replace 'your_image.jpg' with the actual filename of your image
+
+  // Load the file names of PNG images in the preload function
+   loadStrings('flags/', handleFileNames); // Adjust the path to your image folder
+
+  // Load the file names of PNG images in the preload function
+  // pngFileNames = listFiles('flags/', 'png'); // Adjust the path to your image folder
+
+
+  console.log(pngFileNames);
+
+  // Load images based on file names
+  for (let i = 0; i < pngFileNames.length; i++) {
+    let img = loadImage('flags/' + pngFileNames[i]);
+    images.push(img);
+  }
+
+}
+
+function handleFileNames(data) {
+  pngFileNames = data.filter(fileName => fileName.endsWith('.png'));
+}
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  colorMode(HSB, 360, 100, 100);
   rectMode(CENTER);
-	fill(200,60,90);
-  rect(width*0.5, height*0.5, 280, 72,7);
-	fill(0,0,100);
-	textSize(27);
-	textAlign(CENTER,CENTER);
-	textFont('Avenir');
-	let permin = round(clicks * 600 / timerValue);
-	text('click: ' + clicks + " OR " + clicks2 + "TIME" + nfc(timerValue / 10,1) + "\nperMin:" + permin, width*0.5,height*0.5+2);
-	text('touch move: ' + movec, width*0.5,height*0.35+2);
-	text('double: ' + doublec + " or " + doublec2, width*0.5,height*0.65+2);
-	text('end: ' + endclicks, width*0.5,height*0.8+2);
+  setInterval(timeIt, 100); // https://editor.p5js.org/denaplesk2/sketches/ryIBFP_lG
+
+  // Display the list of PNG file names in the console
+  console.log('PNG file names:', pngFileNames);
+
+}
+
+function draw() {
+  background(value, 10, 10);
+
+  //image(img, width / 2 - img.width / 2, height / 2 - img.height / 2);
+
+  rectMode(CENTER);
+  fill(200, 60, 90);
+  rect(width * 0.5, height * 0.5, 280, 72, 7);
+  fill(0, 0, 100);
+  textSize(27);
+  textAlign(CENTER, CENTER);
+  textFont('Avenir');
+  let permin = round(clicks * 600 / timerValue);
+  text('click: ' + clicks + " OR " + clicks2 + "TIME" + nfc(timerValue / 10, 1) + "\nperMin:" + permin, width * 0.5, height * 0.5 + 2);
+  text('touch move: ' + movec, width * 0.5, height * 0.35 + 2);
+  text('double: ' + doublec + " or " + doublec2, width * 0.5, height * 0.65 + 2);
+  text('end: ' + endclicks, width * 0.5, height * 0.8 + 2);
 }
 
 // TOUCH ------------------------------------------------------------
 // full screen: https://editor.p5js.org/slow_izzm/sketches/lgzf4tJk6
-function touchStarted () {
+function touchStarted() {
   let fs = fullscreen();
   if (!fs) {
     fullscreen(true);
   }
   value = 0;
   if (ptimer == timerValue) {
-	  // double
-	  doublec = doublec + 1; //# // within selected time 0.1sec
+    // double
+    doublec = doublec + 1; //# // within selected time 0.1sec
   } else {
-	  clicks = clicks + 1;
+    clicks = clicks + 1;
   }
   // https://stackoverflow.com/questions/51144762/p5-js-mousepressed-works-but-doublepressed-doesnot
   ptimer = timerValue;
-  if(!clicked){ //# https://stackoverflow.com/questions/51144762/p5-js-mousepressed-works-but-doublepressed-doesnot
-    clicked=true;
-    setTimeout(function(){
-      if(clicked){
+  if (!clicked) { //# https://stackoverflow.com/questions/51144762/p5-js-mousepressed-works-but-doublepressed-doesnot
+    clicked = true;
+    setTimeout(function () {
+      if (clicked) {
         console.log("single click");
-        clicked=false;
+        clicked = false;
         //single ClickStuff
-		clicks2 = clicks2 + 1;
+        clicks2 = clicks2 + 1;
       }
-    },clickTimeout);
-  }else{
-    clicked=false;
+    }, clickTimeout);
+  } else {
+    clicked = false;
     console.log("double click");
     //double click Stuff
-	doublec2 = doublec2 + 1;
+    doublec2 = doublec2 + 1;
   }
 }
 
-function touchEnded() { 
-    value = 50; 
-	// Clean code and post answer here: https://github.com/processing/p5.js/issues/1815
+function touchEnded() {
+  value = 50;
+  // Clean code and post answer here: https://github.com/processing/p5.js/issues/1815
 
-	// without this double clicks:
-	if(event.type!='mouseup'){ // nicolasbaez commented 20 days ago at https://github.com/processing/p5.js/issues/1815
-		//your code :)
-		
-		endclicks = endclicks + 1;
-	}
-	
-	
-} 
+  // without this double clicks:
+  if (event.type != 'mouseup') { // nicolasbaez commented 20 days ago at https://github.com/processing/p5.js/issues/1815
+    //your code :)
+
+    endclicks = endclicks + 1;
+  }
+
+
+}
 // TOUCH MOVED ------------------------------------------------------
 function touchMoved() {
-	movec = movec + 1;
+  movec = movec + 1;
 }
 
 // this function fires with any double click anywhere
@@ -90,22 +131,18 @@ function touchMoved() {
 
 
 
-
-
-
-
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 function timeIt() {
-  
-    timerValue++;
-  
+
+  timerValue++;
+
 }
 /* prevents the mobile browser from processing some default
  * touch events, like swiping left for "back" or scrolling
  * the page.
  */
-document.ontouchmove = function(event) {
-    event.preventDefault();
+document.ontouchmove = function (event) {
+  event.preventDefault();
 };
