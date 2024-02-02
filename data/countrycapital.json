@@ -1,123 +1,726 @@
 {
     "ad": {
-      "fi": {"country": "Andorra", "capital": "Andorra la Vella"},
-      "sv": {"country": "Andorra", "capital": "Andorra la Vella"},
-      "en": {"country": "Andorra", "capital": "Andorra la Vella"},
-      "es": {"country": "Andorra", "capital": "Andorra la Vella"}
+        "fi": {
+            "country": "Andorra",
+            "capital": "Andorra la Vella"
+        },
+        "sv": {
+            "country": "Andorra",
+            "capital": "Andorra la Vella"
+        },
+        "en": {
+            "country": "Andorra",
+            "capital": "Andorra la Vella"
+        },
+        "es": {
+            "country": "Andorra",
+            "capital": "Andorra la Vella"
+        }
     },
     "ae": {
-      "fi": {"country": "Yhdistyneet arabiemiirikunnat", "capital": "Abu Dhabi"},
-      "sv": {"country": "Förenade Arabemiraten", "capital": "Abu Dhabi"},
-      "en": {"country": "United Arab Emirates", "capital": "Abu Dhabi"},
-      "es": {"country": "Emiratos Árabes Unidos", "capital": "Abu Dabi"}
+        "fi": {
+            "country": "Yhdistyneet arabiemiirikunnat",
+            "capital": "Abu Dhabi"
+        },
+        "sv": {
+            "country": "Förenade Arabemiraten",
+            "capital": "Abu Dhabi"
+        },
+        "en": {
+            "country": "United Arab Emirates",
+            "capital": "Abu Dhabi"
+        },
+        "es": {
+            "country": "Emiratos Árabes Unidos",
+            "capital": "Abu Dabi"
+        }
     },
     "af": {
-      "fi": {"country": "Afganistan", "capital": "Kabul"},
-      "sv": {"country": "Afghanistan", "capital": "Kabul"},
-      "en": {"country": "Afghanistan", "capital": "Kabul"},
-      "es": {"country": "Afganistán", "capital": "Kabul"}
+        "fi": {
+            "country": "Afganistan",
+            "capital": "Kabul"
+        },
+        "sv": {
+            "country": "Afghanistan",
+            "capital": "Kabul"
+        },
+        "en": {
+            "country": "Afghanistan",
+            "capital": "Kabul"
+        },
+        "es": {
+            "country": "Afganistán",
+            "capital": "Kabul"
+        }
     },
     "ag": {
-      "fi": {"country": "Antigua ja Barbuda", "capital": "St. John's"},
-      "sv": {"country": "Antigua och Barbuda", "capital": "St. John's"},
-      "en": {"country": "Antigua and Barbuda", "capital": "St. John's"},
-      "es": {"country": "Antigua y Barbuda", "capital": "Saint John"}
+        "fi": {
+            "country": "Antigua ja Barbuda",
+            "capital": "St. John's"
+        },
+        "sv": {
+            "country": "Antigua och Barbuda",
+            "capital": "St. John's"
+        },
+        "en": {
+            "country": "Antigua and Barbuda",
+            "capital": "St. John's"
+        },
+        "es": {
+            "country": "Antigua y Barbuda",
+            "capital": "Saint John"
+        }
     },
     "ai": {
-      "fi": {"country": "Anguilla", "capital": "The Valley"},
-      "sv": {"country": "Anguilla", "capital": "The Valley"},
-      "en": {"country": "Anguilla", "capital": "The Valley"},
-      "es": {"country": "Anguila", "capital": "The Valley"}
+        "fi": {
+            "country": "Anguilla",
+            "capital": "The Valley"
+        },
+        "sv": {
+            "country": "Anguilla",
+            "capital": "The Valley"
+        },
+        "en": {
+            "country": "Anguilla",
+            "capital": "The Valley"
+        },
+        "es": {
+            "country": "Anguila",
+            "capital": "The Valley"
+        }
     },
     "al": {
-      "fi": {"country": "Albania", "capital": "Tirana"},
-      "sv": {"country": "Albanien", "capital": "Tirana"},
-      "en": {"country": "Albania", "capital": "Tirana"},
-      "es": {"country": "Albania", "capital": "Tirana"}
+        "fi": {
+            "country": "Albania",
+            "capital": "Tirana"
+        },
+        "sv": {
+            "country": "Albanien",
+            "capital": "Tirana"
+        },
+        "en": {
+            "country": "Albania",
+            "capital": "Tirana"
+        },
+        "es": {
+            "country": "Albania",
+            "capital": "Tirana"
+        }
     },
     "am": {
-      "fi": {"country": "Armenia", "capital": "Yerevan"},
-      "sv": {"country": "Armenien", "capital": "Jerevan"},
-      "en": {"country": "Armenia", "capital": "Yerevan"},
-      "es": {"country": "Armenia", "capital": "Ereván"}
+        "fi": {
+            "country": "Armenia",
+            "capital": "Yerevan"
+        },
+        "sv": {
+            "country": "Armenien",
+            "capital": "Jerevan"
+        },
+        "en": {
+            "country": "Armenia",
+            "capital": "Yerevan"
+        },
+        "es": {
+            "country": "Armenia",
+            "capital": "Ereván"
+        }
     },
     "ao": {
-      "fi": {"country": "Angola", "capital": "Luanda"},
-      "sv": {"country": "Angola", "capital": "Luanda"},
-      "en": {"country": "Angola", "capital": "Luanda"},
-      "es": {"country": "Angola", "capital": "Luanda"}
+        "fi": {
+            "country": "Angola",
+            "capital": "Luanda"
+        },
+        "sv": {
+            "country": "Angola",
+            "capital": "Luanda"
+        },
+        "en": {
+            "country": "Angola",
+            "capital": "Luanda"
+        },
+        "es": {
+            "country": "Angola",
+            "capital": "Luanda"
+        }
     },
     "aq": {
-      "fi": {"country": "Etelämanner", "capital": ""},
-      "sv": {"country": "Antarktis", "capital": ""},
-      "en": {"country": "Antarctica", "capital": ""},
-      "es": {"country": "Antártida", "capital": ""}
+        "fi": {
+            "country": "Etelämanner",
+            "capital": ""
+        },
+        "sv": {
+            "country": "Antarktis",
+            "capital": ""
+        },
+        "en": {
+            "country": "Antarctica",
+            "capital": ""
+        },
+        "es": {
+            "country": "Antártida",
+            "capital": ""
+        }
     },
     "ar": {
-      "fi": {"country": "Argentiina", "capital": "Buenos Aires"},
-      "sv": {"country": "Argentina", "capital": "Buenos Aires"},
-      "en": {"country": "Argentina", "capital": "Buenos Aires"},
-      "es": {"country": "Argentina", "capital": "Buenos Aires"}
+        "fi": {
+            "country": "Argentiina",
+            "capital": "Buenos Aires"
+        },
+        "sv": {
+            "country": "Argentina",
+            "capital": "Buenos Aires"
+        },
+        "en": {
+            "country": "Argentina",
+            "capital": "Buenos Aires"
+        },
+        "es": {
+            "country": "Argentina",
+            "capital": "Buenos Aires"
+        }
     },
     "as": {
-      "fi": {"country": "Amerikan Samoa", "capital": "Pago Pago"},
-      "sv": {"country": "Amerikanska Samoa", "capital": "Pago Pago"},
-      "en": {"country": "American Samoa", "capital": "Pago Pago"},
-      "es": {"country": "Samoa Americana", "capital": "Pago Pago"}
+        "fi": {
+            "country": "Amerikan Samoa",
+            "capital": "Pago Pago"
+        },
+        "sv": {
+            "country": "Amerikanska Samoa",
+            "capital": "Pago Pago"
+        },
+        "en": {
+            "country": "American Samoa",
+            "capital": "Pago Pago"
+        },
+        "es": {
+            "country": "Samoa Americana",
+            "capital": "Pago Pago"
+        }
     },
     "at": {
-      "fi": {"country": "Itävalta", "capital": "Wien"},
-      "sv": {"country": "Österrike", "capital": "Wien"},
-      "en": {"country": "Austria", "capital": "Vienna"},
-      "es": {"country": "Austria", "capital": "Viena"}
+        "fi": {
+            "country": "Itävalta",
+            "capital": "Wien"
+        },
+        "sv": {
+            "country": "Österrike",
+            "capital": "Wien"
+        },
+        "en": {
+            "country": "Austria",
+            "capital": "Vienna"
+        },
+        "es": {
+            "country": "Austria",
+            "capital": "Viena"
+        }
     },
     "au": {
-      "fi": {"country": "Australia", "capital": "Canberra"},
-      "sv": {"country": "Australien", "capital": "Canberra"},
-      "en": {"country": "Australia", "capital": "Canberra"},
-      "es": {"country": "Australia", "capital": "Canberra"}
+        "fi": {
+            "country": "Australia",
+            "capital": "Canberra"
+        },
+        "sv": {
+            "country": "Australien",
+            "capital": "Canberra"
+        },
+        "en": {
+            "country": "Australia",
+            "capital": "Canberra"
+        },
+        "es": {
+            "country": "Australia",
+            "capital": "Canberra"
+        }
     },
     "aw": {
-      "fi": {"country": "Aruba", "capital": "Oranjestad"},
-      "sv": {"country": "Aruba", "capital": "Oranjestad"},
-      "en": {"country": "Aruba", "capital": "Oranjestad"},
-      "es": {"country": "Aruba", "capital": "Oranjestad"}
+        "fi": {
+            "country": "Aruba",
+            "capital": "Oranjestad"
+        },
+        "sv": {
+            "country": "Aruba",
+            "capital": "Oranjestad"
+        },
+        "en": {
+            "country": "Aruba",
+            "capital": "Oranjestad"
+        },
+        "es": {
+            "country": "Aruba",
+            "capital": "Oranjestad"
+        }
     },
     "ax": {
-      "fi": {"country": "Ahvenanmaa", "capital": "Maarianhamina"},
-      "sv": {"country": "Åland", "capital": "Mariehamn"},
-      "en": {"country": "Åland Islands", "capital": "Mariehamn"},
-      "es": {"country": "Åland", "capital": "Mariehamn"}
+        "fi": {
+            "country": "Ahvenanmaa",
+            "capital": "Maarianhamina"
+        },
+        "sv": {
+            "country": "Åland",
+            "capital": "Mariehamn"
+        },
+        "en": {
+            "country": "Åland Islands",
+            "capital": "Mariehamn"
+        },
+        "es": {
+            "country": "Åland",
+            "capital": "Mariehamn"
+        }
     },
     "az": {
-      "fi": {"country": "Azerbaidžan", "capital": "Baku"},
-      "sv": {"country": "Azerbajdzjan", "capital": "Baku"},
-      "en": {"country": "Azerbaijan", "capital": "Baku"},
-      "es": {"country": "Azerbaiyán", "capital": "Bakú"}
+        "fi": {
+            "country": "Azerbaidžan",
+            "capital": "Baku"
+        },
+        "sv": {
+            "country": "Azerbajdzjan",
+            "capital": "Baku"
+        },
+        "en": {
+            "country": "Azerbaijan",
+            "capital": "Baku"
+        },
+        "es": {
+            "country": "Azerbaiyán",
+            "capital": "Bakú"
+        }
     },
     "ba": {
-      "fi": {"country": "Bosnia ja Hertsegovina", "capital": "Sarajevo"},
-      "sv": {"country": "Bosnien och Hercegovina", "capital": "Sarajevo"},
-      "en": {"country": "Bosnia and Herzegovina", "capital": "Sarajevo"},
-      "es": {"country": "Bosnia y Herzegovina", "capital": "Sarajevo"}
+        "fi": {
+            "country": "Bosnia ja Hertsegovina",
+            "capital": "Sarajevo"
+        },
+        "sv": {
+            "country": "Bosnien och Hercegovina",
+            "capital": "Sarajevo"
+        },
+        "en": {
+            "country": "Bosnia and Herzegovina",
+            "capital": "Sarajevo"
+        },
+        "es": {
+            "country": "Bosnia y Herzegovina",
+            "capital": "Sarajevo"
+        }
     },
     "bb": {
-      "fi": {"country": "Barbados", "capital": "Bridgetown"},
-      "sv": {"country": "Barbados", "capital": "Bridgetown"},
-      "en": {"country": "Barbados", "capital": "Bridgetown"},
-      "es": {"country": "Barbados", "capital": "Bridgetown"}
+        "fi": {
+            "country": "Barbados",
+            "capital": "Bridgetown"
+        },
+        "sv": {
+            "country": "Barbados",
+            "capital": "Bridgetown"
+        },
+        "en": {
+            "country": "Barbados",
+            "capital": "Bridgetown"
+        },
+        "es": {
+            "country": "Barbados",
+            "capital": "Bridgetown"
+        }
     },
     "bd": {
-      "fi": {"country": "Bangladesh", "capital": "Dhaka"},
-      "sv": {"country": "Bangladesh", "capital": "Dhaka"},
-      "en": {"country": "Bangladesh", "capital": "Dhaka"},
-      "es": {"country": "Bangladés", "capital": "Daca"}
+        "fi": {
+            "country": "Bangladesh",
+            "capital": "Dhaka"
+        },
+        "sv": {
+            "country": "Bangladesh",
+            "capital": "Dhaka"
+        },
+        "en": {
+            "country": "Bangladesh",
+            "capital": "Dhaka"
+        },
+        "es": {
+            "country": "Bangladés",
+            "capital": "Daca"
+        }
     },
     "be": {
-      "fi": {"country": "Belgia", "capital": "Bryssel"},
-      "sv": {"country": "Belgien", "capital": "Bryssel"},
-      "en": {"country": "Belgium", "capital": "Brussels"},
-      "es": {"country": "Bélgica", "capital": "Bruselas"}
+        "fi": {
+            "country": "Belgia",
+            "capital": "Bryssel"
+        },
+        "sv": {
+            "country": "Belgien",
+            "capital": "Bryssel"
+        },
+        "en": {
+            "country": "Belgium",
+            "capital": "Brussels"
+        },
+        "es": {
+            "country": "Bélgica",
+            "capital": "Bruselas"
+        }
+    },
+    {
+        "bf": {
+            "fi": {
+                "country": "Burkina Faso",
+                "capital": "Ouagadougou"
+            },
+            "sv": {
+                "country": "Burkina Faso",
+                "capital": "Ouagadougou"
+            },
+            "en": {
+                "country": "Burkina Faso",
+                "capital": "Ouagadougou"
+            },
+            "es": {
+                "country": "Burkina Faso",
+                "capital": "Uagadugú"
+            }
+        },
+        "bg": {
+            "fi": {
+                "country": "Bulgaria",
+                "capital": "Sofia"
+            },
+            "sv": {
+                "country": "Bulgarien",
+                "capital": "Sofia"
+            },
+            "en": {
+                "country": "Bulgaria",
+                "capital": "Sofia"
+            },
+            "es": {
+                "country": "Bulgaria",
+                "capital": "Sofía"
+            }
+        },
+        "bh": {
+            "fi": {
+                "country": "Bahrain",
+                "capital": "Manama"
+            },
+            "sv": {
+                "country": "Bahrain",
+                "capital": "Manama"
+            },
+            "en": {
+                "country": "Bahrain",
+                "capital": "Manama"
+            },
+            "es": {
+                "country": "Baréin",
+                "capital": "Manama"
+            }
+        },
+        "bi": {
+            "fi": {
+                "country": "Burundi",
+                "capital": "Bujumbura"
+            },
+            "sv": {
+                "country": "Burundi",
+                "capital": "Bujumbura"
+            },
+            "en": {
+                "country": "Burundi",
+                "capital": "Bujumbura"
+            },
+            "es": {
+                "country": "Burundi",
+                "capital": "Buyumbura"
+            }
+        },
+        "bj": {
+            "fi": {
+                "country": "Benin",
+                "capital": "Porto-Novo"
+            },
+            "sv": {
+                "country": "Benin",
+                "capital": "Porto-Novo"
+            },
+            "en": {
+                "country": "Benin",
+                "capital": "Porto-Novo"
+            },
+            "es": {
+                "country": "Benín",
+                "capital": "Porto Novo"
+            }
+        },
+        "bl": {
+            "fi": {
+                "country": "Saint-Barthélemy",
+                "capital": "Gustavia"
+            },
+            "sv": {
+                "country": "Saint-Barthélemy",
+                "capital": "Gustavia"
+            },
+            "en": {
+                "country": "Saint Barthélemy",
+                "capital": "Gustavia"
+            },
+            "es": {
+                "country": "San Bartolomé",
+                "capital": "Gustavia"
+            }
+        },
+        "bm": {
+            "fi": {
+                "country": "Bermuda",
+                "capital": "Hamilton"
+            },
+            "sv": {
+                "country": "Bermuda",
+                "capital": "Hamilton"
+            },
+            "en": {
+                "country": "Bermuda",
+                "capital": "Hamilton"
+            },
+            "es": {
+                "country": "Bermudas",
+                "capital": "Hamilton"
+            }
+        },
+        "bn": {
+            "fi": {
+                "country": "Brunei",
+                "capital": "Bandar Seri Begawan"
+            },
+            "sv": {
+                "country": "Brunei",
+                "capital": "Bandar Seri Begawan"
+            },
+            "en": {
+                "country": "Brunei",
+                "capital": "Bandar Seri Begawan"
+            },
+            "es": {
+                "country": "Brunéi",
+                "capital": "Bandar Seri Begawan"
+            }
+        },
+        "bo": {
+            "fi": {
+                "country": "Bolivia",
+                "capital": "Sucre (constitutional), La Paz (seat of government)"
+            },
+            "sv": {
+                "country": "Bolivia",
+                "capital": "Sucre (konstitutionell), La Paz (regeringssäte)"
+            },
+            "en": {
+                "country": "Bolivia",
+                "capital": "Sucre (constitutional), La Paz (seat of government)"
+            },
+            "es": {
+                "country": "Bolivia",
+                "capital": "Sucre (constitucional), La Paz (sede del gobierno)"
+            }
+        },
+        "bq": {
+            "fi": {
+                "country": "Bonaire, Sint Eustatius ja Saba",
+                "capital": ""
+            },
+            "sv": {
+                "country": "Bonaire, Sint Eustatius och Saba",
+                "capital": ""
+            },
+            "en": {
+                "country": "Bonaire, Sint Eustatius, and Saba",
+                "capital": ""
+            },
+            "es": {
+                "country": "Bonaire, San Eustaquio y Saba",
+                "capital": ""
+            }
+        }
+    },
+    {
+        "br": {
+            "fi": {
+                "country": "Brasilia",
+                "capital": "Brasília"
+            },
+            "sv": {
+                "country": "Brasiliens",
+                "capital": "Brasília"
+            },
+            "en": {
+                "country": "Brazil",
+                "capital": "Brasília"
+            },
+            "es": {
+                "country": "Brasil",
+                "capital": "Brasilia"
+            }
+        },
+        "bs": {
+            "fi": {
+                "country": "Nassau",
+                "capital": "Nassau"
+            },
+            "sv": {
+                "country": "Bahamas",
+                "capital": "Nassau"
+            },
+            "en": {
+                "country": "Bahamas",
+                "capital": "Nassau"
+            },
+            "es": {
+                "country": "Bahamas",
+                "capital": "Nassau"
+            }
+        },
+        "bt": {
+            "fi": {
+                "country": "Thimphu",
+                "capital": "Thimphu"
+            },
+            "sv": {
+                "country": "Bhutan",
+                "capital": "Thimphu"
+            },
+            "en": {
+                "country": "Bhutan",
+                "capital": "Thimphu"
+            },
+            "es": {
+                "country": "Bután",
+                "capital": "Thimphu"
+            }
+        },
+        "bv": {
+            "fi": {
+                "country": "Bouvet-saari",
+                "capital": ""
+            },
+            "sv": {
+                "country": "Bouvetön",
+                "capital": ""
+            },
+            "en": {
+                "country": "Bouvet Island",
+                "capital": ""
+            },
+            "es": {
+                "country": "Isla Bouvet",
+                "capital": ""
+            }
+        },
+        "bw": {
+            "fi": {
+                "country": "Gaborone",
+                "capital": "Gaborone"
+            },
+            "sv": {
+                "country": "Botswana",
+                "capital": "Gaborone"
+            },
+            "en": {
+                "country": "Botswana",
+                "capital": "Gaborone"
+            },
+            "es": {
+                "country": "Botsuana",
+                "capital": "Gaborone"
+            }
+        },
+        "by": {
+            "fi": {
+                "country": "Minsk",
+                "capital": "Minsk"
+            },
+            "sv": {
+                "country": "Vitryssland",
+                "capital": "Minsk"
+            },
+            "en": {
+                "country": "Belarus",
+                "capital": "Minsk"
+            },
+            "es": {
+                "country": "Bielorrusia",
+                "capital": "Minsk"
+            }
+        },
+        "bz": {
+            "fi": {
+                "country": "Belmopan",
+                "capital": "Belmopan"
+            },
+            "sv": {
+                "country": "Belize",
+                "capital": "Belmopan"
+            },
+            "en": {
+                "country": "Belize",
+                "capital": "Belmopan"
+            },
+            "es": {
+                "country": "Belice",
+                "capital": "Belmopán"
+            }
+        },
+        "ca": {
+            "fi": {
+                "country": "Ottawa",
+                "capital": "Ottawa"
+            },
+            "sv": {
+                "country": "Kanada",
+                "capital": "Ottawa"
+            },
+            "en": {
+                "country": "Canada",
+                "capital": "Ottawa"
+            },
+            "es": {
+                "country": "Canadá",
+                "capital": "Ottawa"
+            }
+        },
+        "cc": {
+            "fi": {
+                "country": "Kookossaaret",
+                "capital": ""
+            },
+            "sv": {
+                "country": "Kokosöarna",
+                "capital": ""
+            },
+            "en": {
+                "country": "Cocos (Keeling) Islands",
+                "capital": ""
+            },
+            "es": {
+                "country": "Islas Cocos (Keeling)",
+                "capital": ""
+            }
+        },
+        "cd": {
+            "fi": {
+                "country": "Kinshasa",
+                "capital": "Kinshasa"
+            },
+            "sv": {
+                "country": "Kongo-Kinshasa",
+                "capital": "Kinshasa"
+            },
+            "en": {
+                "country": "Democratic Republic of the Congo",
+                "capital": "Kinshasa"
+            },
+            "es": {
+                "country": "República Democrática del Congo",
+                "capital": "Kinshasa"
+            }
+        }
     }
-  }
-  
+}
